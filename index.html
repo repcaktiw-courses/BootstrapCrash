@@ -14,6 +14,13 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+      crossorigin=""
+    />
+
     <link rel="stylesheet" href="style.css" />
     <title>Frontend Bootcamp</title>
   </head>
@@ -442,10 +449,48 @@
       </div>
     </section>
 
+    <!-- SECTION: CONTACT -->
+
+    <section class="p-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md">
+            <h2 class="text-center mb-4">Contact Info</h2>
+            <ul class="list-group list-group-flush lead">
+              <li class="list-group-item">
+                <span class="fw-bold">Main Location:</span> Beauchamp Tower, 35
+                Tower Hill, London
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Phone:</span> 123 456 789
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">General Email:</span>
+                bootcamp@fakebootcamp.test
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Enrollment Email:</span>
+                enroll@fakebootcamp.test
+              </li>
+            </ul>
+          </div>
+          <div class="col-md">
+            <div id="mymap"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin=""
+    ></script>
+    <script src="map.js"></script>
   </body>
 </html>
